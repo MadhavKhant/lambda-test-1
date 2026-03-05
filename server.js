@@ -5,6 +5,7 @@ import userRoutes from "./routes/userRoutes.js"
 dotenv.config();
 const PORT = process.env.PORT;
 import serverless from "serverless-http";
+import mongoose from "mongoose";
 
 // Create express app
 const app = express();
