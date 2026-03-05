@@ -7,6 +7,7 @@ const PORT = process.env.PORT;
 import serverless from "serverless-http";
 import mongoose from "mongoose";
 
+
 // Create express app
 const app = express();
 app.use(express.json());
